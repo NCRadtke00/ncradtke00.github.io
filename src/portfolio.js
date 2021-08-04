@@ -141,11 +141,11 @@ const workExperiences = {
     },
   ],
 };
-const openSource = {
+const githubRepo = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: "NCRadtke00",
   showGithubProfile: "true",
-  display: false,
+  display: true,
 };
 const contactInfo = {
   title: "Contact Me",
@@ -207,7 +207,7 @@ export {
   educationInfo,
   techStack,
   workExperiences,
-  openSource,
+  githubRepo,
   contactInfo,
   twitterDetails,
   myProjects,

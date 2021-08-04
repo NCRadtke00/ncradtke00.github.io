@@ -5,18 +5,21 @@ import {
   greeting,
   workExperiences,
   skillsSection,
-  openSource,
+  githubRepo,
   myProjects,
 } from "../../portfolio";
+import Toggle from "../toggle/Toggle";
+import StyleContext from "../../contexts/StyleContext";
 
 function Header() {
+  const { isDark } = useContext(StyleContext);
   const viewExperience = workExperiences.display;
-  const viewOpenSource = openSource.display;
+  const viewGithubRepo = githubRepo.display;
   const viewSkills = skillsSection.display;
   const viewMyProjects = myProjects.display;
   return (
     <Headroom>
-      <header className="header">
+      <header className={isDark ? "dark_menu header" : "header"}>
         <a href="/" className="logo">
           <span className="logo_name">{greeting.username}</span>
         </a>
@@ -26,34 +29,37 @@ function Header() {
           htmlFor="menu_btn"
           style={{ color: "white" }}
         >
-          <span className="navicon"></span>
+          <span className={isDark ? "navicon navicon_dark" : "navicon"}></span>
         </label>
-        <ul className="menu">
-          {viewSkills && (
-            <li>
-              <a href="#skills">Skills</a>
-            </li>
-          )}
+        <ul className={isDark ? "dark_menu menu" : "menu"}>
+          <li>
+            <a href="#contact">Contact Me</a>
+          </li>
           {viewExperience && (
             <li>
               <a href="#experience">Work Experiences</a>
             </li>
           )}
-          {viewOpenSource && (
+          {viewGithubRepo && (
             <li>
-              <a href="#opensource">Open Source</a>
+              <a href="#githubrepo">Sorce Code</a>
             </li>
           )}
+          {viewSkills && (
+            <li>
+              <a href="#skills">Skills</a>
+            </li>
+          )}
+
           {viewMyProjects && (
             <li>
               <a href="#myprojects">My Projects</a>
             </li>
           )}
           <li>
-            <a href="#contact">Contact Me</a>
-          </li>
-          <li>
-            <a href="#">{/* <ToggleSwitch /> */}</a>
+            <a href="#">
+              <Toggle />
+            </a>
           </li>
         </ul>
       </header>

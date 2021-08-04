@@ -66,7 +66,6 @@
   position: absolute;
   transition: all 0.2s ease-out;
   width: 100%;
-  
 }
 .header .menu_icon .navicon:before {
   top: 5px;
@@ -118,4 +117,17 @@
   .header {
     font-size: 12px;
   }
+}
+
+.dark_menu {
+  background-color: #171c28 !important;
+  color: white;
+}
+
+.dark_menu li a {
+  color: white !important;
+}
+
+.dark_menu li a:hover {
+  background-color: #55198b !important;
 }
