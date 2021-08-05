@@ -6,3 +6,7 @@
   text-align: center;
   color: #868e96 !important;
 }
+.dark_mode {
+  color: white !important;
+  text-align: center;
+}

@@ -33,6 +33,11 @@ function Header() {
         </label>
         <ul className={isDark ? "dark_menu menu" : "menu"}>
           <li>
+            <a href="#">
+              <Toggle />
+            </a>
+          </li>
+          <li>
             <a href="#contact">Contact Me</a>
           </li>
           {viewExperience && (
@@ -56,11 +61,6 @@ function Header() {
               <a href="#myprojects">My Projects</a>
             </li>
           )}
-          <li>
-            <a href="#">
-              <Toggle />
-            </a>
-          </li>
         </ul>
       </header>
     </Headroom>

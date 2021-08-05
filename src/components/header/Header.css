@@ -19,6 +19,7 @@
 .header li a:hover,
 .header .menu_btn:hover {
   background-color: #f4f4f4;
+  border-radius: 5%;
 }
 .header .logo {
   display: block;
