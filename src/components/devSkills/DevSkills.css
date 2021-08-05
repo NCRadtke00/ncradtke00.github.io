@@ -26,3 +26,7 @@
 .software_skill_inline > i:hover ~ p {
   color: #645beb;
 }
+.skill_card {
+  width: 33%;
+  height: 100px;
+}
