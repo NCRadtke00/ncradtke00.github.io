@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import "./Header.css";
 import Headroom from "react-headroom";
 import {
-  greeting,
+  intro,
   workExperiences,
   skillsSection,
   githubRepo,
@@ -21,7 +21,7 @@ function Header() {
     <Headroom>
       <header className={isDark ? "dark_menu header" : "header"}>
         <a href="/" className="logo">
-          <span className="logo_name">{greeting.username}</span>
+          <span className="logo_name">{intro.username}</span>
         </a>
         <input className="menu_btn" type="checkbox" id="menu_btn" />
         <label

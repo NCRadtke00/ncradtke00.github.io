@@ -1,11 +1,11 @@
-const greeting = {
+const intro = {
   username: "Nick Radtke",
   title: "Hey! Thanks for stopping by, I'm Nick!",
   subTitle:
     "I'm a passionate Full Stack Software Developer and problem-solver. I have experience designing and building Web and Mobile applications with C#, .Net, HTML, CSS, JavaScript, Reactjs, Node, SQL, and some other cool libraries, databases, and frameworks!",
   resumeLink:
     "https://docs.google.com/document/d/1kGInjx7H5coX7gJyoCCvqHdBFycG3uKliluubm4Jl0Q/edit?usp=sharing",
-  displayGreeting: true,
+  displayIntro: true,
 };
 const socialMediaLinks = {
   github: "https://github.com/NCRadtke00",
@@ -201,7 +201,7 @@ const myProjects = {
   display: true,
 };
 export {
-  greeting,
+  intro,
   socialMediaLinks,
   skillsSection,
   educationInfo,

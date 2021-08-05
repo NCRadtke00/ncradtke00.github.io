@@ -3,6 +3,7 @@ import { StyleProvider } from "../contexts/StyleContext";
 import "./Main.css";
 
 import Header from "../components/header/Header";
+import Intro from "./intro/Intro";
 import Footer from "../components/footer/Footer";
 export default class Main extends Component {
   constructor(props) {
@@ -31,6 +32,7 @@ export default class Main extends Component {
           value={{ isDark: this.state.isDark, changeTheme: this.changeTheme }}
         >
           <Header />
+          <Intro />
           <Footer />
         </StyleProvider>
       </div>
