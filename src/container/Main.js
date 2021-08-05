@@ -4,6 +4,7 @@ import "./Main.css";
 
 import Header from "../components/header/Header";
 import Intro from "./intro/Intro";
+import Skills from "./skills/Skills";
 import Footer from "../components/footer/Footer";
 export default class Main extends Component {
   constructor(props) {
@@ -33,6 +34,7 @@ export default class Main extends Component {
         >
           <Header />
           <Intro />
+          <Skills />
           <Footer />
         </StyleProvider>
       </div>

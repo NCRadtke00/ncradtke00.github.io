@@ -3,7 +3,6 @@ import { Fade } from "react-reveal";
 import "./Intro.css";
 import StyleContext from "../../contexts/StyleContext";
 import { intro } from "../../portfolio";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
 
 export default function Intro() {
   const { isDark } = useContext(StyleContext);
@@ -26,7 +25,6 @@ export default function Intro() {
               >
                 {intro.subTitle}
               </p>
-              <SocialMedia />
             </div>
           </div>
         </div>

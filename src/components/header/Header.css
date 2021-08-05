@@ -3,23 +3,27 @@
   max-width: 100%;
   padding: 15px 20px;
   margin: 0px auto;
+  text-align: center;
 }
 .header ul {
   margin: 0;
   padding: 0;
   list-style: none;
   overflow: hidden;
+  align-items: center;
+  text-align: center;
 }
 .header li a {
   display: block;
-  padding: 15px 20px;
+  padding: 6px;
   color: black;
   text-decoration: none;
 }
+.header .logo_name:hover,
 .header li a:hover,
 .header .menu_btn:hover {
   background-color: #f4f4f4;
-  border-radius: 5%;
+  border-radius: 15%;
 }
 .header .logo {
   display: block;
@@ -27,8 +31,9 @@
   float: left;
   font-size: 1.5em;
   text-decoration: none;
-  margin-top: 10px;
+
   line-height: normal;
+  color: black;
 }
 .header .logo_name {
   font-family: "Agustina Regular";
@@ -121,14 +126,14 @@
 }
 
 .dark_menu {
-  background-color: #171c28 !important;
+  background-color: #080808 !important;
   color: white;
 }
-
+.dark_menu .logo_name,
 .dark_menu li a {
   color: white !important;
 }
-
+.dark_menu .logo_name:hover,
 .dark_menu li a:hover {
   background-color: #55198b !important;
 }

@@ -1,5 +1,6 @@
 .social_media {
   font-size: 2em;
+  text-align: center;
 }
 .icon_button {
   margin-bottom: 10px;
@@ -10,7 +11,7 @@
   border-radius: 2.6rem;
   cursor: pointer;
   display: inline-block;
-  font-size: 1.3rem;
+  font-size: 1.75rem;
   height: 2.6rem;
   line-height: 2.6rem;
   margin: 0 5px;
@@ -33,9 +34,4 @@
 }
 .google i {
   background-color: #ea4335;
-}
-@media (max-width: 768px) {
-  .social_media {
-    text-align: center;
-  }
 }

@@ -1,0 +1,10 @@
+.skills_main {
+  display: flex;
+}
+.skills_text {
+  margin-left: 50px;
+}
+.skills_main > * {
+  flex: 1;
+  margin-bottom: 30px;
+}

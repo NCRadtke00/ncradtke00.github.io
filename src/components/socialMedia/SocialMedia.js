@@ -15,17 +15,6 @@ function SocialMedia() {
           <span></span>
         </a>
       ) : null}
-      {socialMediaLinks.linkedin ? (
-        <a
-          href={socialMediaLinks.linkedin}
-          className="icon_button linkedin"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-linkedin-in"></i>
-          <span></span>
-        </a>
-      ) : null}
       {socialMediaLinks.gmail ? (
         <a
           href={`mailto:${socialMediaLinks.gmail}`}
@@ -34,6 +23,18 @@ function SocialMedia() {
           rel="noopener noreferrer"
         >
           <i className="fab fa-google"></i>
+          <span></span>
+        </a>
+      ) : null}
+
+      {socialMediaLinks.linkedin ? (
+        <a
+          href={socialMediaLinks.linkedin}
+          className="icon_button linkedin"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-linkedin-in"></i>
           <span></span>
         </a>
       ) : null}

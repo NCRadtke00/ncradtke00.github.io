@@ -1,6 +1,6 @@
 const intro = {
   username: "Nick Radtke",
-  title: "Hey! Thanks for stopping by, I'm Nick!",
+  title: "Welcome to my portfolio, I'm Nick!",
   subTitle:
     "I'm a passionate Full Stack Software Developer and problem-solver. I have experience designing and building Web and Mobile applications with C#, .Net, HTML, CSS, JavaScript, Reactjs, Node, SQL, and some other cool libraries, databases, and frameworks!",
   resumeLink:
@@ -17,25 +17,25 @@ const socialMediaLinks = {
   display: true,
 };
 const skillsSection = {
-  title: "What I do",
+  title: "Skill Section",
   subTitle:
-    "Full stack developer, exploring different tech stacks and creating awesome projects",
+    "As a full stack developer, I'm always exploring different tech stacks and creating new awesome projects",
   skills: [
-    " Develop highly interactive front end user interfaces for your web and mobile applications",
-    " Progressive Web Applications ( PWA ) in normal and SPA Stacks",
-    "Integration of third party services such as Firebase and AWS Amplify",
+    "~I enjoy developing interactive front end user interfaces for web and mobile applications",
+    "~I build reliable back end servers to ensure data is communicated from databases to the user",
+    "~From time to time I integrate third party services such as Firebase, Youtube, and Stripe",
   ],
-  softwareSkills: [
+  frontendSkills: [
     {
-      skillName: "html-5",
+      skillName: "HTML-5",
       fontAwesomeClassname: "fab fa-html5",
     },
     {
-      skillName: "css3",
+      skillName: "CSS-3",
       fontAwesomeClassname: "fab fa-css3-alt",
     },
     {
-      skillName: "sass",
+      skillName: "SASS",
       fontAwesomeClassname: "fab fa-sass",
     },
     {
@@ -43,24 +43,36 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-js",
     },
     {
-      skillName: "reactjs",
+      skillName: "React.js",
       fontAwesomeClassname: "fab fa-react",
     },
+  ],
+  backendSkills: [
     {
-      skillName: "nodejs",
+      skillName: "Node.js",
       fontAwesomeClassname: "fab fa-node",
     },
     {
-      skillName: "npm",
+      skillName: "NPM",
       fontAwesomeClassname: "fab fa-npm",
     },
+  ],
+  otherSkills: [
     {
-      skillName: "sql-database",
+      skillName: "SQL-database",
       fontAwesomeClassname: "fas fa-database",
     },
     {
-      skillName: "firebase",
+      skillName: "Firebase",
       fontAwesomeClassname: "fas fa-fire",
+    },
+    {
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git",
+    },
+    {
+      skillName: "Stripe",
+      fontAwesomeClassname: "fab fa-cc-stripe",
     },
   ],
   display: true,
