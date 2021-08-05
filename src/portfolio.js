@@ -46,6 +46,26 @@ const skillsSection = {
       skillName: "React.js",
       fontAwesomeClassname: "fab fa-react",
     },
+    {
+      skillName: "Redux",
+      fontAwesomeClassname: "",
+    },
+    {
+      skillName: "Razor Pages",
+      fontAwesomeClassname: "",
+    },
+    {
+      skillName: "Tailwind",
+      fontAwesomeClassname: "",
+    },
+    {
+      skillName: "Styled-Components",
+      fontAwesomeClassname: "",
+    },
+    {
+      skillName: "TypeScript",
+      fontAwesomeClassname: "",
+    },
   ],
   backendSkills: [
     {
@@ -55,6 +75,14 @@ const skillsSection = {
     {
       skillName: "NPM",
       fontAwesomeClassname: "fab fa-npm",
+    },
+    {
+      skillName: "Asp.Net",
+      fontAwesomeClassname: "",
+    },
+    {
+      skillName: "C#",
+      fontAwesomeClassname: "",
     },
   ],
   otherSkills: [
@@ -73,6 +101,10 @@ const skillsSection = {
     {
       skillName: "Stripe",
       fontAwesomeClassname: "fab fa-cc-stripe",
+    },
+    {
+      skillName: "AdobeXD",
+      fontAwesomeClassname: "",
     },
   ],
   display: true,
