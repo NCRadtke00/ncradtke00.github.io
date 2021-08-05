@@ -3,7 +3,7 @@ import "./Skills.css";
 import { skillsSection } from "../../portfolio";
 import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
-
+import DevSkills from "../../components/devSkills/DevSkills";
 export default function Skills() {
   const { isDark } = useContext(StyleContext);
   if (!skillsSection.display) {
@@ -44,7 +44,7 @@ export default function Skills() {
                 );
               })}
             </div>
-            <p>bring in different skills (frontend, backend,db)</p>
+            <DevSkills />
           </div>
         </Fade>
       </div>
