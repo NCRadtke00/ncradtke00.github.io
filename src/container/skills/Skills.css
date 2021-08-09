@@ -8,3 +8,45 @@
   flex: 1;
   margin-bottom: 30px;
 }
+.skills_heading {
+  font-size: 56px;
+  font-weight: 400;
+}
+.subTitle {
+  color: #868e96;
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+  .skills_heading {
+    font-size: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .skills_heading {
+    font-size: 30px;
+    text-align: center;
+  }
+  .greeting_text_p {
+    font-size: 16px;
+    line-height: normal;
+  }
+  .skills_main_div {
+    flex-direction: column;
+  }
+  .skills_text_div {
+    margin-left: 0px;
+    margin: 20px;
+  }
+  .skills_text {
+    font-size: 16px;
+  }
+  .skills_text_subtitle {
+    font-size: 16px;
+    text-align: center;
+  }
+  .skills_image_div {
+    /* display: none; */
+    order: 2;
+  }
+}
