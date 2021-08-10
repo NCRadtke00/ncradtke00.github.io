@@ -194,9 +194,9 @@ const githubRepo = {
 const contactInfo = {
   title: "Contact Me",
   subtitle:
-    "Let's discuss one of my projects, or a project you'd like me to work on, my inbox is open for all.",
-  number: "(262) 420 - 6008 ",
-  email_address: "ncradtke@uwm.edu",
+    "Let's discuss one of my projects, a project you'd like me to work on, or a possible role you would like me to fill!",
+  number: " (262) 420 - 6008 ",
+  email_address: " NCRadtke@uwm.edu ",
 };
 const twitterDetails = {
   userName: "", //Replace "" with twitter username without @
