@@ -114,7 +114,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "University Wisconsin Milwaukee",
-      //   logo: require("./assets/images/"),
+      logo: require("./assets/images/UWM.svg"),
       subHeader: "International Economics",
       duration: "September 2009 - May 2012, Spring 2015, Fall 2019",
       desc: "Studied Finance and Accounting, eventually switching to International Economics.",
@@ -125,7 +125,7 @@ const educationInfo = {
     },
     {
       schoolName: "devCodeCamp",
-      //   logo: require("./assets/images/"),
+     logo: require("./assets/images/dcc.png"),
       subHeader: "Full Stack Software Development",
       duration: "August 2020 - October 2020",
       desc: "Focused on building full-stack applications with a range of , ...",
@@ -185,22 +185,12 @@ const workExperiences = {
     },
   ],
 };
-const githubRepo = {
-  githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "NCRadtke00",
-  showGithubProfile: "true",
-  display: true,
-};
 const contactInfo = {
   title: "Contact Me",
   subtitle:
     "Let's discuss one of my projects, a project you'd like me to work on, or a possible role you would like me to fill!",
   number: " (262) 420 - 6008 ",
   email_address: " NCRadtke@uwm.edu ",
-};
-const twitterDetails = {
-  userName: "", //Replace "" with twitter username without @
-  display: true,
 };
 const myProjects = {
   title: "My Projects",
@@ -251,8 +241,6 @@ export {
   educationInfo,
   techStack,
   workExperiences,
-  githubRepo,
   contactInfo,
-  twitterDetails,
   myProjects,
 };
