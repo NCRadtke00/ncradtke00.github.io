@@ -33,20 +33,10 @@ export default function EducationCard({ school }) {
             <h5 className="education_text_school">{school.schoolName}</h5>
 
             <div className="education_text_details">
-              <h5
-                className={
-                  isDark
-                    ? "dark_mode education_text_subHeader"
-                    : "education_text_subHeader"
-                }
-              >
+              <h5 className={ isDark ? "dark_mode education_text_subHeader" : "education_text_subHeader"}>
                 {school.subHeader}
               </h5>
-              <p
-                className={`${
-                  isDark ? "dark_mode" : ""
-                } education_text_duration`}
-              >
+              <p className={`${ isDark ? "dark_mode" : "" } education_text_duration`}>
                 {school.duration}
               </p>
               <p className="education_text_desc">{school.desc}</p>

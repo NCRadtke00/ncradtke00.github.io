@@ -117,9 +117,9 @@ const educationInfo = {
       logo: require("./assests/images/dcc.png"),
       subHeader: "Full Stack Software Development",
       duration: "August 2020 - October 2020",
-      desc: "Focused on building full-stack applications with a range of , ...",
+      desc: "Focused on building full-stack applications with C#/.NET and JavaScript Librarys",
       descBullets: [
-        " C# | ASP.NET, 3.1/5.0, Core, MVC, WebAPI, Entity Framework | Python | JavaScript | SQL | React | MERN Stack | Git/GitHub | APIs | Web Services | Testing/Unit Testing | HTML5/CSS3 | Data Structures | Algorithms | BootStrap 4",
+        " C# | ASP.NET, 3.1/5.0, Core, MVC, WebAPI, Entity Framework | JavaScript | SQL | Node | React | MERN Stack | Git/GitHub | APIs | Web Services | Testing/Unit Testing | HTML5/CSS3 | Data Structures | Algorithms | BootStrap4",
       ],
     },
     {
@@ -131,6 +131,7 @@ const educationInfo = {
       descBullets: [
         "2009-2010 Student Housing Counsel Senator",
         "2009-2011 UWM Triathlon Team",
+        "2019 Student Vetran America representive",
       ],
     },
   ],

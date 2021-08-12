@@ -10,6 +10,7 @@ import Projects from "./projects/Projects";
 import Contact from "./contact/Contact";
 import Top from "./topReturn/Top";
 import Footer from "../components/footer/Footer";
+import Ed from "./ed/Ed";
 export default class Main extends Component {
   constructor(props) {
     super(props);
@@ -42,6 +43,7 @@ export default class Main extends Component {
           <Projects />
           {/* <About/> */}
           <Education />
+          <Ed />
           <Contact />
           <Top />
           <Footer />
