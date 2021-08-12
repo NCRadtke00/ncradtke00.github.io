@@ -216,7 +216,7 @@ const myProjects = {
       footerLink: [
         {
           name: "Visit Code",
-          url: "",
+          url: "https://github.com/NCRadtke00/SudsCapstone",
         },
       ],
     },
@@ -227,7 +227,7 @@ const myProjects = {
         "A clone of youtube to avoid ads, and improve my skills with react and API's",
       footerLink: [
         {
-          name: "NotYoutube",
+          name: "Visit NotYoutube",
           url: "https://ncr-ytc.web.app/auth",
         },
       ],
@@ -239,7 +239,7 @@ const myProjects = {
         "A netflix clone project, since netflix uses react I figured it would be a great project to improve my skills and get practice. ",
       footerLink: [
         {
-          name: "NotNetflix",
+          name: "Visit NotNetflix",
           url: "https://netflix-clone-83724.web.app/",
         },
       ],
