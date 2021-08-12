@@ -3,6 +3,7 @@ import { Fade } from "react-reveal";
 import "./Intro.css";
 import StyleContext from "../../contexts/StyleContext";
 import { intro } from "../../portfolio";
+import Button from "../../components/button/Button";
 
 export default function Intro() {
   const { isDark } = useContext(StyleContext);
@@ -25,6 +26,14 @@ export default function Intro() {
               >
                 {intro.subTitle}
               </p>
+            </div>
+            <div className="button_div">
+              <Button text="Contact me" href="#contact" />
+              <Button
+                text="See my resume"
+                newTab={true}
+                href={intro.resumeLink}
+              />
             </div>
           </div>
         </div>
