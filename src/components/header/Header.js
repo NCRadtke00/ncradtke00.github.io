@@ -58,7 +58,7 @@ function Header() {
 
           {viewMyProjects && (
             <li>
-              <a href="#myprojects">My Projects</a>
+              <a href="#projects">My Projects</a>
             </li>
           )}
         </ul>

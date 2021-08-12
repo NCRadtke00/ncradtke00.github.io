@@ -1,4 +1,4 @@
-.topButton {
+#topButton {
   visibility: hidden;
   position: fixed;
   bottom: 20px;
@@ -14,7 +14,7 @@
   font-size: 25px;
 }
 
-.topButton:hover {
+#topButton:hover {
   background-color: #000;
   transition: all ease-in-out 0.2s;
 }
