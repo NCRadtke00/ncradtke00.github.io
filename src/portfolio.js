@@ -193,8 +193,8 @@ const contactInfo = {
   email_address: " NCRadtke@uwm.edu ",
 };
 const myProjects = {
-  title: "My Projects",
-  subtitle: "Some Projects I've created to improve my skills",
+  title: "Projects",
+  subtitle: "Check out some of my projects",
   projects: [
     {
       //   image: require("./assets/images/"),
@@ -211,7 +211,8 @@ const myProjects = {
     {
       //   image: require("./assets/images/"),
       projectName: "Sudys",
-      projectDesc: "Capstone Project at devCodeCamp",
+      projectDesc:
+        "Capstone Project at devCodeCamp, build with C#/.Net MVC, Razor pages, GoogleMaps API, GeoCode API, Bootstrap, and Stripe",
       footerLink: [
         {
           name: "Visit Code",
@@ -226,8 +227,20 @@ const myProjects = {
         "A clone of youtube to avoid ads, and improve my skills with react and API's",
       footerLink: [
         {
-          name: "Visit Project",
-          url: "",
+          name: "NotYoutube",
+          url: "https://ncr-ytc.web.app/auth",
+        },
+      ],
+    },
+    {
+      //   image: require("./assets/images/"),
+      projectName: "NetflixClone",
+      projectDesc:
+        "A netflix clone project, since netflix uses react I figured it would be a great project to improve my skills and get practice. ",
+      footerLink: [
+        {
+          name: "NotNetflix",
+          url: "https://netflix-clone-83724.web.app/",
         },
       ],
     },
