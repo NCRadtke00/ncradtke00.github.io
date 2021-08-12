@@ -7,6 +7,7 @@ import Intro from "./intro/Intro";
 import Skills from "./skills/Skills";
 import Footer from "../components/footer/Footer";
 import Contact from "./contact/Contact";
+import Education from "./education/Education";
 export default class Main extends Component {
   constructor(props) {
     super(props);
@@ -38,12 +39,10 @@ export default class Main extends Component {
           <Skills />
           {/* <Projects/> */}
           <h1>MY Projects section</h1>
-          <Contact />
           <h1>Contact section, should I use google maps? </h1>
           {/* <About/> */}
-          <h1>
-            About + Work history, thinking I should put this on its own page
-          </h1>
+          <Education />
+          <Contact />
           <Footer />
         </StyleProvider>
       </div>

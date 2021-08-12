@@ -110,27 +110,27 @@ const skillsSection = {
   display: true,
 };
 const educationInfo = {
-  display: false,
+  display: true,
   schools: [
     {
+      schoolName: "devCodeCamp",
+      logo: require("./assests/images/dcc.png"),
+      subHeader: "Full Stack Software Development",
+      duration: "August 2020 - October 2020",
+      desc: "Focused on building full-stack applications with a range of , ...",
+      descBullets: [
+        " C# | ASP.NET, 3.1/5.0, Core, MVC, WebAPI, Entity Framework | Python | JavaScript | SQL | React | MERN Stack | Git/GitHub | APIs | Web Services | Testing/Unit Testing | HTML5/CSS3 | Data Structures | Algorithms | BootStrap 4",
+      ],
+    },
+    {
       schoolName: "University Wisconsin Milwaukee",
-      logo: require("./assets/images/UWM.svg"),
+      logo: require("./assests/images/UWM.svg"),
       subHeader: "International Economics",
       duration: "September 2009 - May 2012, Spring 2015, Fall 2019",
       desc: "Studied Finance and Accounting, eventually switching to International Economics.",
       descBullets: [
         "2009-2010 Student Housing Counsel Senator",
         "2009-2011 UWM Triathlon Team",
-      ],
-    },
-    {
-      schoolName: "devCodeCamp",
-     logo: require("./assets/images/dcc.png"),
-      subHeader: "Full Stack Software Development",
-      duration: "August 2020 - October 2020",
-      desc: "Focused on building full-stack applications with a range of , ...",
-      descBullets: [
-        " C# | ASP.NET, 3.1/5.0, Core, MVC, WebAPI, Entity Framework | Python | JavaScript | SQL | React | MERN Stack | Git/GitHub | APIs | Web Services | Testing/Unit Testing | HTML5/CSS3 | Data Structures | Algorithms | BootStrap 4",
       ],
     },
   ],

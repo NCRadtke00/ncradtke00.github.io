@@ -5,8 +5,8 @@ import {
   intro,
   workExperiences,
   skillsSection,
-  githubRepo,
   myProjects,
+  educationInfo,
 } from "../../portfolio";
 import Toggle from "../toggle/Toggle";
 import StyleContext from "../../contexts/StyleContext";
@@ -14,7 +14,7 @@ import StyleContext from "../../contexts/StyleContext";
 function Header() {
   const { isDark } = useContext(StyleContext);
   const viewExperience = workExperiences.display;
-  const viewGithubRepo = githubRepo.display;
+  const viewEducation = educationInfo.display;
   const viewSkills = skillsSection.display;
   const viewMyProjects = myProjects.display;
   return (
@@ -45,9 +45,9 @@ function Header() {
               <a href="#experience">Work Experiences</a>
             </li>
           )}
-          {viewGithubRepo && (
+          {viewEducation && (
             <li>
-              <a href="#githubrepo">Sorce Code</a>
+              <a href="#education">Education</a>
             </li>
           )}
           {viewSkills && (
