@@ -5,10 +5,11 @@ import "./Main.css";
 import Header from "../components/header/Header";
 import Intro from "./intro/Intro";
 import Skills from "./skills/Skills";
-import Footer from "../components/footer/Footer";
-import Contact from "./contact/Contact";
 import Education from "./education/Education";
 import Projects from "./projects/Projects";
+import Contact from "./contact/Contact";
+import Top from "./topReturn/Top";
+import Footer from "../components/footer/Footer";
 export default class Main extends Component {
   constructor(props) {
     super(props);
@@ -42,6 +43,7 @@ export default class Main extends Component {
           {/* <About/> */}
           <Education />
           <Contact />
+          <Top />
           <Footer />
         </StyleProvider>
       </div>
