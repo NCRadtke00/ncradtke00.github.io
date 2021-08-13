@@ -3,7 +3,7 @@ import "./Header.css";
 import Headroom from "react-headroom";
 import {
   intro,
-  workExperiences,
+  // workExperiences,
   skillsSection,
   myProjects,
   educationInfo,
@@ -13,7 +13,7 @@ import StyleContext from "../../contexts/StyleContext";
 
 function Header() {
   const { isDark } = useContext(StyleContext);
-  const viewExperience = workExperiences.display;
+  // const viewExperience = workExperiences.display;
   const viewEducation = educationInfo.display;
   const viewSkills = skillsSection.display;
   const viewMyProjects = myProjects.display;
@@ -33,18 +33,18 @@ function Header() {
         </label>
         <ul className={isDark ? "dark_menu menu" : "menu"}>
           <li>
-            <a href="#">
+            <a href="/#">
               <Toggle />
             </a>
           </li>
           <li>
             <a href="#contact">Contact Me</a>
           </li>
-          {viewExperience && (
+          {/* {viewExperience && (
             <li>
               <a href="#experience">Work Experiences</a>
             </li>
-          )}
+          )} */}
           {viewEducation && (
             <li>
               <a href="#education">Education</a>

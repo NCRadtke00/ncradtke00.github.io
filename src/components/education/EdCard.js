@@ -1,7 +1,8 @@
 import React, { createRef, useContext } from "react";
-import { Fade, Slide, Zoom } from "react-reveal";
+import { Fade, Slide } from "react-reveal";
 import "./EdCard.css";
 import StyleContext from "../../contexts/StyleContext";
+import dcc from "../../assests/images/Images";
 
 export default function EducationCard({ school }) {
   const imgRef = createRef();
@@ -21,7 +22,12 @@ export default function EducationCard({ school }) {
       <div className="education_card">
         <Fade left duration={2000}>
           <div className="card_img">
-            <img src={school.logo} alt={school.schoolName} />
+            <img
+              className="school_logo"
+              ref={imgRef}
+              src={school.logo}
+              alt={school.schoolName}
+            />
           </div>
         </Fade>
         <Fade right duration={2000} distance="40px">

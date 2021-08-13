@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import "./Contact.css";
-import { illustration, contactInfo } from "../../portfolio";
+import { contactInfo } from "../../portfolio";
 import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 

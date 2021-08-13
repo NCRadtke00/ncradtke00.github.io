@@ -1,3 +1,4 @@
+import IMAGES from "./assests/images/Images";
 const intro = {
   username: "Nick Radtke",
   title: "Welcome to my portfolio, I'm Nick!",
@@ -25,84 +26,105 @@ const skillsSection = {
     "~I build reliable back end servers to ensure data is communicated from databases to the user",
     "~From time to time I integrate third party services such as Firebase, Youtube, and Stripe",
   ],
-  frontendSkills: [
+
+  devSkills: [
     {
+      area: "front",
       skillName: "HTML-5",
       fontAwesomeClassname: "fab fa-html5",
     },
     {
+      area: "front",
       skillName: "CSS-3",
       fontAwesomeClassname: "fab fa-css3-alt",
     },
     {
+      area: "front",
       skillName: "SASS",
       fontAwesomeClassname: "fab fa-sass",
     },
     {
+      area: "front",
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js",
     },
     {
+      area: "front",
       skillName: "React.js",
       fontAwesomeClassname: "fab fa-react",
     },
     {
+      area: "front",
       skillName: "Redux",
       fontAwesomeClassname: "",
     },
     {
+      area: "front",
       skillName: "Razor Pages",
       fontAwesomeClassname: "",
     },
     {
+      area: "front",
       skillName: "Tailwind",
       fontAwesomeClassname: "",
     },
     {
+      area: "front",
       skillName: "Styled-Components",
       fontAwesomeClassname: "",
     },
     {
+      area: "front",
       skillName: "TypeScript",
       fontAwesomeClassname: "",
     },
-  ],
-  backendSkills: [
     {
+      area: "front",
+      skillName: "Bootstrap",
+      fontAwesomeClassname: "",
+    },
+    {
+      area: "back",
       skillName: "Node.js",
       fontAwesomeClassname: "fab fa-node",
     },
     {
-      skillName: "NPM",
+      area: "back",
+      skillName: "Express.js",
       fontAwesomeClassname: "fab fa-npm",
     },
     {
+      area: "back",
       skillName: "Asp.Net",
       fontAwesomeClassname: "",
     },
     {
+      area: "back",
       skillName: "C#",
       fontAwesomeClassname: "",
     },
-  ],
-  otherSkills: [
     {
-      skillName: "SQL-database",
+      area: "other",
+      skillName: "SQL",
       fontAwesomeClassname: "fas fa-database",
     },
     {
+      area: "other",
       skillName: "Firebase",
       fontAwesomeClassname: "fas fa-fire",
     },
     {
+      area: "other",
       skillName: "git",
       fontAwesomeClassname: "fab fa-git",
     },
     {
+      area: "other",
       skillName: "Stripe",
       fontAwesomeClassname: "fab fa-cc-stripe",
     },
     {
+      area: "other",
       skillName: "AdobeXD",
       fontAwesomeClassname: "",
     },
@@ -114,12 +136,15 @@ const educationInfo = {
   schools: [
     {
       schoolName: "devCodeCamp",
-      logo: require("./assests/images/dcc.png"),
+      logo: IMAGES.dcc,
       subHeader: "Full Stack Software Development",
       duration: "August 2020 - October 2020",
       desc: "Focused on building full-stack applications with C#/.NET and JavaScript Librarys",
       descBullets: [
-        " C# | ASP.NET, 3.1/5.0, Core, MVC, WebAPI, Entity Framework | JavaScript | SQL | Node | React | MERN Stack | Git/GitHub | APIs | Web Services | Testing/Unit Testing | HTML5/CSS3 | Data Structures | Algorithms | BootStrap4",
+        " C# | ASP.NET: Core, MVC, WebAPI, Entity Framework | Node | Express ",
+        " SQL | MS SQL Server | MongoDB ",
+        " JavaScript | React | HTML5 | CSS3 | BootStrap 4",
+        " APIs | Git/GitHub | Web Services | Unit Testing | Data Structures | Algorithms ",
       ],
     },
     {
@@ -189,7 +214,7 @@ const workExperiences = {
 const contactInfo = {
   title: "Contact Me",
   subtitle:
-    "Let's discuss one of my projects, a project you'd like me to work on, or a possible role you would like me to fill!",
+    "Let's talk one of my projects, a project you'd like me to work on!",
   number: " (262) 420 - 6008 ",
   email_address: " NCRadtke@uwm.edu ",
 };

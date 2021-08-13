@@ -13,14 +13,21 @@
   transition: width 0.6s ease-in-out;
 }
 .card_img {
-  width: 200px;
-  height: auto;
+  width: 275px;
+  height: 275px;
+
   border-radius: 50%;
   padding: 10px;
-  border: 1px solid #d9dbdf;
-  background-color: #6c63ff;
+  border: 1px solid #0a0a0a;
+  background-color: lightblue;
   background: transparent;
   box-shadow: 5px 5px 5px #d9dbdf;
+  flex: auto;
+}
+.school_logo {
+  height: auto;
+  width: auto;
+  background-color: #000000;
 }
 .card_body {
   background-color: #f7e6f7;
@@ -32,17 +39,19 @@
   margin: 10px;
   box-shadow: 5px 5px 5px #d9dbdf;
   padding: 10px;
+  /* text-align: center; */
 }
-
+.education_text_details {
+  text-align: center;
+}
 .education_text_school {
-  margin: 0;
+  margin: 2px;
   font-size: 30px;
   font-weight: 700;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
-  height: 35px;
-  align-items: flex-start;
+  height: 40px;
   width: 80%;
 }
 
@@ -76,9 +85,6 @@
     flex-direction: column;
     padding-bottom: 10px;
   }
-  .education_right {
-    max-width: 90%;
-  }
   .education_border {
     width: 90%;
   }
@@ -88,7 +94,7 @@
   }
   .education_text_school {
     font-size: 20px;
-    height: 23px;
+    height: 25px;
   }
   .education_text_duration {
     font-size: 16px;
