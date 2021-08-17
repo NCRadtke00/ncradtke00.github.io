@@ -149,7 +149,7 @@ const educationInfo = {
     },
     {
       schoolName: "University Wisconsin Milwaukee",
-      logo: require("./assests/images/UWM.svg"),
+      logo: IMAGES.uwm,
       subHeader: "International Economics",
       duration: "September 2009 - May 2012, Spring 2015, Fall 2019",
       desc: "Studied Finance and Accounting, eventually switching to International Economics.",

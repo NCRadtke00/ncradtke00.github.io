@@ -7,8 +7,8 @@ export default function DevSkills() {
       <div className="software_skills_main">
         <Fade>
           <div className="skill_card">
-            <h2>Frontend Skills</h2>
-            <ul className="dev-icons">
+            <h2>Skills</h2>
+            <ul className="dev_icons">
               {skillsSection.devSkills.map((skills, i) => {
                 return (
                   <li
