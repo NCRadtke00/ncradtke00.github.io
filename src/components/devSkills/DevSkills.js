@@ -28,7 +28,20 @@ export default function DevSkills() {
           <div className="skill_cards">
             //sort cards by area
             <div className="title">
-              <h1>{skillsSection.devSkills.area}</h1>
+              <h1>
+                {skillsSection.devSkills.area.map((area, i) => {
+                  return (
+                    <li
+                      key={i}
+                      className="software_skill_inline"
+                      name={area.area}
+                    >
+                      <i className={area.fontAwesomeClassname}></i>
+                      <p>{area.area}</p>
+                    </li>
+                  );
+                })}
+              </h1>
             </div>
             <br />
             <div className="body">
